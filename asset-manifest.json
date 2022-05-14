@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mycvlab/static/css/main.073c9b0a.css",
+    "main.js": "/mycvlab/static/js/main.b4a64088.js",
+    "index.html": "/mycvlab/index.html",
+    "main.073c9b0a.css.map": "/mycvlab/static/css/main.073c9b0a.css.map",
+    "main.b4a64088.js.map": "/mycvlab/static/js/main.b4a64088.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.b4a64088.js"
+  ]
+}
