@@ -6,12 +6,12 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Hem/>}/>
-        <Route path="kontakt" element={<Kontakt/>}/>
-        <Route path="erfarenheter" element={<Erfarenheter/>}/>
-        <Route path="utbildningar" element={<Utbildningar/>}/>
-        <Route path="kompetenser" element={<Kompetenser/>}/>
-        <Route path="portfolio" element={<Portfolio/>}/>
+        <Route path="/mycvlab" element={<Hem/>}/>
+        <Route path="/mycvlab/kontakt" element={<Kontakt/>}/>
+        <Route path="/mycvlab/erfarenheter" element={<Erfarenheter/>}/>
+        <Route path="/mycvlab/utbildningar" element={<Utbildningar/>}/>
+        <Route path="/mycvlab/kompetenser" element={<Kompetenser/>}/>
+        <Route path="/mycvlab/portfolio" element={<Portfolio/>}/>
       </Routes>
     </div>
   );
@@ -22,11 +22,11 @@ function Hem(){
     <nav>
       <ul className='my-list'>
         <li>Hem</li>
-        <li><Link to="/kontakt">Kontakt</Link></li>
-        <li><Link to="/erfarenheter">Erfarenheter</Link></li>
-        <li><Link to="/utbildningar">Utbildningar</Link></li>
-        <li><Link to="/kompetenser">Kompetenser</Link></li>
-        <li><Link to="/portfolio">Portfolio</Link></li>
+        <li><Link to="/mycvlab/kontakt">Kontakt</Link></li>
+        <li><Link to="/mycvlab/erfarenheter">Erfarenheter</Link></li>
+        <li><Link to="/mycvlab/utbildningar">Utbildningar</Link></li>
+        <li><Link to="/mycvlab/kompetenser">Kompetenser</Link></li>
+        <li><Link to="/mycvlab/portfolio">Portfolio</Link></li>
       </ul>
     </nav>
     <main>
@@ -41,12 +41,12 @@ function Kontakt(){
     <>
     <nav>
       <ul className='my-list'>
-        <li><Link to="/">Hem</Link></li>
+        <li><Link to="/mycvlab">Hem</Link></li>
         <li>Kontakt</li>
-        <li><Link to="/erfarenheter">Erfarenheter</Link></li>
-        <li><Link to="/utbildningar">Utbildningar</Link></li>
-        <li><Link to="/kompetenser">Kompetenser</Link></li>
-        <li><Link to="/portfolio">Portfolio</Link></li>
+        <li><Link to="/mycvlab/erfarenheter">Erfarenheter</Link></li>
+        <li><Link to="/mycvlab/utbildningar">Utbildningar</Link></li>
+        <li><Link to="/mycvlab/kompetenser">Kompetenser</Link></li>
+        <li><Link to="/mycvlab/portfolio">Portfolio</Link></li>
       </ul>
     </nav>
     <main>
@@ -61,12 +61,12 @@ function Erfarenheter(){
     <>
     <nav>
       <ul className='my-list'>
-      <li><Link to="/">Hem</Link></li>
-        <li><Link to="/kontakt">Kontakt</Link></li>
+      <li><Link to="/mycvlab">Hem</Link></li>
+        <li><Link to="/mycvlab/kontakt">Kontakt</Link></li>
         <li>Erfarenheter</li>
-        <li><Link to="/utbildningar">Utbildningar</Link></li>
-        <li><Link to="/kompetenser">Kompetenser</Link></li>
-        <li><Link to="/portfolio">Portfolio</Link></li>
+        <li><Link to="/mycvlab/utbildningar">Utbildningar</Link></li>
+        <li><Link to="/mycvlab/kompetenser">Kompetenser</Link></li>
+        <li><Link to="/mycvlab/portfolio">Portfolio</Link></li>
       </ul>
     </nav>
     <main>
@@ -81,12 +81,12 @@ function Utbildningar(){
     <>
     <nav>
       <ul className='my-list'>
-      <li><Link to="/">Hem</Link></li>
-        <li><Link to="/kontakt">Kontakt</Link></li>
-        <li><Link to="/erfarenheter">Erfarenheter</Link></li>
+      <li><Link to="/mycvlab">Hem</Link></li>
+        <li><Link to="/mycvlab/kontakt">Kontakt</Link></li>
+        <li><Link to="/mycvlab/erfarenheter">Erfarenheter</Link></li>
         <li>Utbildningar</li>
-        <li><Link to="/kompetenser">Kompetenser</Link></li>
-        <li><Link to="/portfolio">Portfolio</Link></li>
+        <li><Link to="/mycvlab/kompetenser">Kompetenser</Link></li>
+        <li><Link to="/mycvlab/portfolio">Portfolio</Link></li>
       </ul>
     </nav>
     <main>
@@ -101,12 +101,12 @@ function Kompetenser(){
     <>
     <nav>
       <ul className='my-list'>
-      <li><Link to="/">Hem</Link></li>
-        <li><Link to="/kontakt">Kontakt</Link></li>
-        <li><Link to="/erfarenheter">Erfarenheter</Link></li>
-        <li><Link to="/utbildningar">Utbildningar</Link></li>
+      <li><Link to="/mycvlab">Hem</Link></li>
+        <li><Link to="/mycvlab/kontakt">Kontakt</Link></li>
+        <li><Link to="/mycvlab/erfarenheter">Erfarenheter</Link></li>
+        <li><Link to="/mycvlab/utbildningar">Utbildningar</Link></li>
         <li>Kompetenser</li>
-        <li><Link to="/portfolio">Portfolio</Link></li>
+        <li><Link to="/mycvlab/portfolio">Portfolio</Link></li>
       </ul>
     </nav>
     <main>
@@ -121,11 +121,11 @@ function Portfolio(){
     <>
     <nav>
       <ul className='my-list'>
-      <li><Link to="/">Hem</Link></li>
-        <li><Link to="/kontakt">Kontakt</Link></li>
-        <li><Link to="/erfarenheter">Erfarenheter</Link></li>
-        <li><Link to="/utbildningar">Utbildningar</Link></li>
-        <li><Link to="/kompetenser">Kompetenser</Link></li>
+      <li><Link to="/mycvlab">Hem</Link></li>
+        <li><Link to="/mycvlab/kontakt">Kontakt</Link></li>
+        <li><Link to="/mycvlab/erfarenheter">Erfarenheter</Link></li>
+        <li><Link to="/mycvlab/utbildningar">Utbildningar</Link></li>
+        <li><Link to="/mycvlab/kompetenser">Kompetenser</Link></li>
         <li>Portfolio</li>
       </ul>
     </nav>
