@@ -1,0 +1,26 @@
+[
+    {
+        "Id": 1,
+        "Arbete": "Butiksmedarbetare",
+        "År": "2018 - 2020",
+        "Företag": "Gekås Ullared"    
+    },
+    {
+        "Id": 2,
+        "Arbete": "Servitris",
+        "År": "2016 - 2018",
+        "Företag": "Trattoria"    
+    },
+    {
+        "Id": 3,
+        "Arbete": "Medarbetare",
+        "År": "2016",
+        "Företag": "Subway"    
+    },
+    {
+        "Id": 4,
+        "Arbete": "UF-företagare",
+        "År": "2015 - 2016",
+        "Företag": "Fyrisskolan Uppsala"    
+    }
+]

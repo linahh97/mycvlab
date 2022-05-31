@@ -1,0 +1,14 @@
+[
+    {
+        "Id": 1,
+        "Skola": "Systemutvecklare .NET",
+        "År": "2021 - pågående",
+        "Plats": "Campus Varberg"    
+    },
+    {
+        "Id": 2,
+        "Skola": "Ekonomiprogrammet",
+        "År": "2013 - 2016",
+        "Plats": "Fyrisskolan Uppsala"    
+    }
+]

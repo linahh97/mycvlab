@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway:wght@200&display=swap');
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(255, 231, 243);
+}    
+.line{
+    border-top: 10px solid rgb(250, 124, 202);
+}
+.name{
+    color: black;
+    font-family: Goudy Old Style;
+    font-size: 450%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#image{
+    width: 10vw;
+    margin-left: 80%;
+}
+
+.square{
+    border: 15px solid rgb(228, 184, 228);
+    background-color: rgb(228, 184, 228);
+    color:rgb(46, 94, 8);
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    padding: 3vw;
+    margin-top: 10%;
+}
+
+.square .pic img{
+    width: 15vw;
+}
+
+.square .text p{
+    font-size: 1.3rem;
+}
+
+.square .badhus img{
+    width: 15vw;
+}
+
+.square .contact p{
+    padding: 0;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.square .contact a{
+    color: rgb(110, 8, 110);
+}
+
+.info{
+    color: rgb(67, 12, 161);
+}
+
+.square .experience h6{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.square .experience .time{
+    color: rgb(110, 8, 110);
+    padding: 20px;
+}
+
+.square .experience p{
+    font-weight: bold;
+    color: rgb(212, 44, 145);
+    margin-top: -2rem;
+}
+
+.square .text h6{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgb(235, 21, 128);
+}
+
+.square .text .date{
+    color: darkorchid;
+}
+
+.navigation{
+    margin: auto;
+    font-family: Goudy Old Style;
+    color: deeppink;
+    text-align: center;
+    padding: 4px;
+    font-size:larger;
+    list-style: none;
+}
+.other{
+    color:deeppink;
+}
+.other:hover{
+    background-color: fuchsia;
+    color: azure;
+}
+.active{
+    color: plum;
+}
+.languages{
+    list-style: none;
+    color: rgb(59, 58, 58);
+    font-family: 'Lucida Sans';
+    text-align: center;
+}
+.competence{
+    overflow: hidden;
+}
+.competence .feat{
+    float: left;
+    width: 33.33%;
+}
+.competence .feat h3{
+    color: royalblue;
+    font-size: xx-large;
+    font-family: Geneva;
+}
+.competence .feat p{
+    font-size: x-large;
+    color: blueviolet;
+    flex-direction: column;
+}
+.competence .feat .lang{
+    font-size: medium;
+}
+.project{
+    width: 15vw;
+    width: fit-content;
+}
+
+.project .api{
+    padding-top: 10px;
+    height: 200px;
+    text-align: center;
+    color: black;
+}
+.project .api h3{
+    margin: 1 auto;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Verdana;
+}
+.button {
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    color: #da9a9a;
+    padding: 3% 5%;
+    font-weight: 1000;
+}
+.popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(20, 20, 20, 0.8);
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    transition: .60s ease-in-out;
+}
+.popup-inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    max-height: 500px;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(230, 201, 201);
+  }
+  .popuptext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    padding: 6rem;
+  }
+  .popuptext h1 {
+    font-size:larger;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    color: #0A0A0A;
+  }
+  .popuptext p {
+    font-size: .975rem;
+    color: #2a0746;
+    line-height: 1.5;
+  }
+  .popup:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  .closepopup {
+    position: absolute;
+    right: -1rem;
+    top: -1rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 250%;
+    background-color: black;
+    color: #fff;
+    line-height: 3rem;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .modalWrapper{
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: 10;
+      top: 0;
+      left: 0;
+      cursor: pointer;
+      overflow-y: auto;
+  }
+  .modalContent{
+      width: 60%;
+      min-height: 40%;
+      margin-top: 15%;
+      margin-bottom: 10%;
+      margin-left: 17%;
+      background-color: rgb(228, 184, 228);
+      padding: 3rem;
+      text-align: center;
+      cursor: default;
+  }
+  .hide{
+      display: none !important;
+  }
+
+  @media(max-width:750px){
+      .navigation{
+          width: fit-content;
+      }
+      .name{
+          width: fit-content;
+      }
+      .square{
+          width: fit-content;
+      }
+      .square .contact p{
+          padding: 1rem;
+          text-align: right;
+      }
+      .competence .feat{
+          width: fit-content;
+      }
+  }

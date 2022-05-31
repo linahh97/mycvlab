@@ -1,13 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway:wght@200&display=swap');
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(255, 231, 243);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.line{
+  border-top: 10px solid rgb(250, 124, 202);
+}
+.name{
+  color: black;
+  font-family: Goudy Old Style;
+  font-size: 450%;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.my-list{
+  margin: auto;
+  font-family: Goudy Old Style;
+  text-align: center;
+  padding: 4px;
+  font-size:larger;
+  list-style: none;
+}
+
+.my-list li{
+  display: inline;
+  padding: 5px;
+  color: darkorchid;
+}
+
+.my-list li:hover{
+  background-color: fuchsia;
+  color: azure;
+}
+
+.square{
+  border: 15px solid rgb(228, 184, 228);
+  background-color: rgb(228, 184, 228);
+  color:rgb(46, 94, 8);
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  align-items: center;
+  padding: 3vw;
+  margin-top: 10%;
+}
+
+.square .text{
+  margin: auto;
+}
+
+.square .text h2{
+  color: rgb(212, 44, 145);
+}
+
+.square .text p{
+  font-size: 1.3rem;
+}
+
+.square .contact p{
+  padding: 0;
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+.square .contact a{
+  color: rgb(110, 8, 110);
+}
+
+.info{
+  color: rgb(67, 12, 161);
+}
+
+.square .experience{
+  margin: auto;
+}
+
+.square .experience h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+.square .experience p{
+  font-weight: bold;
+  color: rgb(212, 44, 145);
+  margin-top: 2rem;
+}
+
+.competence{
+  overflow: hidden;
+}
+.competence .feat{
+  float: left;
+  width: 33.33%;
+}
+.competence .feat h3{
+  color: royalblue;
+  font-size: xx-large;
+  font-family: Geneva;
+}
+.competence .feat p{
+  font-size: x-large;
+  color: blueviolet;
+  flex-direction: column;
+}
+.competence .feat .lang{
+  font-size: medium;
+}
+
+@media(max-width:750px){
+  .my-list{
+      width: fit-content;
+      color: deeppink;
+  }
+  .name{
+      width: fit-content;
+  }
+  .square{
+      width: fit-content;
+  }
+  .square .contact p{
+      padding: 1rem;
+      text-align: right;
+  }
+  .competence .feat{
+      width: fit-content;
+  }
 }
