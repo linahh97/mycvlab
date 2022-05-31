@@ -12,6 +12,7 @@ window.onload = function(){
         modalWrapper.classList.add('hide')
     }
 
+    //Tryck in E och G samtidigt
     window.onkeydown = function(gfg){
         if(gfg.keyCode === firstLetter && secondLetter){
             showModal()
