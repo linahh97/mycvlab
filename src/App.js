@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/mycvlab/hem" element={<Hem/>}/>
+        <Route path="/mycvlab" element={<Hem/>}/>
         <Route path="/mycvlab/kontakt" element={<Kontakt/>}/>
         <Route path="/mycvlab/erfarenheter" element={<Erfarenheter/>}/>
         <Route path="/mycvlab/utbildningar" element={<Utbildningar/>}/>

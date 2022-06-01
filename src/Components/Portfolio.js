@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-document.getElementById("demo").onclick = function() {Portfolio()}
 export default function Portfolio()
 {
     const [name, setName] = useState([])
@@ -41,15 +40,15 @@ export default function Portfolio()
 
     return(
       <div className='App'>
-          <h1 class="line"></h1>
+        <h1 class="line"></h1>
       <h1 className="name">Lina Hourani</h1>
       <nav>
         <ul className='my-list'>
-        <li><Link to="/html/Hem.html">Hem</Link></li>
-          <li><Link to="/html/Kontakt.html">Kontakt</Link></li>
-          <li><Link to="/html/Erfarenheter.html">Erfarenheter</Link></li>
-          <li><Link to="/html/Utbildningar.html">Utbildningar</Link></li>
-          <li><Link to="/html/Kompetenser.html">Kompetenser</Link></li>
+        <li><Link to="/mycvlab">Hem</Link></li>
+          <li><Link to="/mycvlab/kontakt">Kontakt</Link></li>
+          <li><Link to="/mycvlab/erfarenheter">Erfarenheter</Link></li>
+          <li><Link to="/mycvlab/utbildningar">Utbildningar</Link></li>
+          <li><Link to="/mycvlab/kompetenser">Kompetenser</Link></li>
           <li>Portfolio</li>
         </ul>
       </nav>
